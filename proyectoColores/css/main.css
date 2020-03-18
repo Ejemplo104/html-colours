@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+
+
+}
+
+.titulo{
+
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.seccionColor{
+
+	display: flex;
+	margin: auto;
+	overflow: hidden;
+	height: 300px;
+}
+
+.seccionMostrarColores{
+
+	width: 70%;
+	/*border: solid;*/
+	
+}
+
+.seccionCambioColor{
+	width: 30%;
+	/*border: solid;*/
+}
+
+.mostrarColores{
+
+    height: 300px;
+	margin: auto;
+	width: 300px;
+	background-color: red;
+	/* height: 300px; */
+	/* width: 300px; */
+	border: solid;
+	border-color: black;
+}
+
+.cambioColor{
+
+	/*text-align: center;
+	vertical-align: middle;*/
+
+	/*display: flex;
+	align-items: center;*/
+
+	/*position:relative;
+ 	height:100%;*/
+
+	height: 100%;
+  	position: relative;
+
+}
+
+button{
+	/*width:100px;
+	margin:0 50%;
+	position:relative;
+	left:-50px;*/
+
+   /*position:relative;*/
+
+  /*position: absolute;
+  top: 50%;
+  transform: translateY(-50%);*/
+  /*margin:0 50%;
+  width:100px;
+  left:-50px;*/
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  /*left: 50%;*/
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	
+}
